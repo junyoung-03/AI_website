@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.category-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;               /* 패딩 증가 */
+  width: 22%;                  /* 15% → 22%로 넓게 */
+  min-width: 250px;            /* 너무 작게 줄어들지 않도록 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;             /* 기본 폰트 크기 증가 */
+}
+
+.category-box h3 {
+  font-size: 18px;             /* 제목 크기 증가 */
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.category-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-box li {
+  margin-bottom: 10px;
+  font-size: 16px;             /* 항목 글씨 크기 증가 */
+}
+
+.category-box a {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;             /* 링크 글씨도 동일하게 */
+}
+
+.category-box a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
